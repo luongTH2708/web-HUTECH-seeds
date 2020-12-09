@@ -1,3 +1,13 @@
-from django.shortcuts import render
+from nav.models import Nav
+from nav.serializers import Serializer
+from rest_framework import generics
 
-# Create your views here.
+
+class List(generics.ListCreateAPIView):
+    queryset = Nav.objects.all()
+    serializer_class = Serializer
+
+
+class Detail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Nav.objects.all()
+    serializer_class = Serializer
