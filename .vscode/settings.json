@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "C:\\Users\\trinh\\anaconda3\\python.exe",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "terminal.integrated.env.osx": {
+        "PATH": "C:\\Users\\trinh\\"
+    }
+}
